@@ -1,6 +1,6 @@
 # Harshit Mehendole — Portfolio
 
-Personal portfolio website for **Harshit Mehendole**, an aspiring software engineer, data enthusiast and freelancer based in Nagpur, India.
+Personal portfolio website for **Harshit Mehendole**, an aspiring software engineer student, data enthusiast and freelancer based in Nagpur, India.
 
 ## Stack
 

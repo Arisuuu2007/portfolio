@@ -3,103 +3,146 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Harshit Mehendole — AI & Data Science student, experimental builder and problem solver.">
-  <title>Harshit Mehendole</title>
+  <meta name="description" content="Harshit Shyam — AI & Data Science student building practical software and experimenting with AI and Android.">
+  <meta name="theme-color" content="#080808">
+  <title>Harshit Shyam — Builder</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="logo" href="#top">HM<span>.</span></a>
-    <nav>
-      <a href="#about">About</a>
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
+
+  <header class="nav">
+    <a class="mark magnetic" href="#top" aria-label="Home">HS<span>_</span></a>
+    <nav class="nav-links">
       <a href="#work">Work</a>
-      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="#play">Play</a>
     </nav>
-    <a class="header-github" href="https://github.com/Arisuuu2007" target="_blank" rel="noreferrer">GitHub ↗</a>
+    <a class="status magnetic" href="https://github.com/Arisuuu2007" target="_blank" rel="noreferrer">
+      <i></i> GitHub ↗
+    </a>
   </header>
 
   <main id="top">
-    <section class="hero">
-      <p class="eyebrow">AI & Data Science student · Nagpur, India</p>
-      <h1>Hi, I'm<br><em>Harshit.</em></h1>
-      <p class="hero-text">I like experimenting with technology, solving problems, and building things just to see if I can make them work.</p>
-      <div class="hero-links">
-        <a href="#work">See what I've built ↓</a>
-        <a href="mailto:harshittmehen@gmail.com">Email me ↗</a>
+    <section class="hero scene">
+      <div class="hero-top">
+        <span>AI & Data Science · India</span>
+        <span id="clock">00:00:00</span>
+      </div>
+
+      <div class="hero-main">
+        <p class="kicker reveal">I build things that work.</p>
+        <h1 class="reveal delay-1">Harshit<br><span>Shyam.</span></h1>
+        <div class="hero-bottom reveal delay-2">
+          <p>I build practical software, experiment with AI and Android, and turn real problems into working products, applications, or anything worth making.</p>
+          <a class="circle-link magnetic" href="#work" aria-label="Explore work">↓</a>
+        </div>
+      </div>
+
+      <div class="scroll-hint">SCROLL TO EXPLORE <span>↘</span></div>
+    </section>
+
+    <section class="intro scene" id="about">
+      <div class="section-tag">01 — ABOUT</div>
+      <div class="intro-copy">
+        <p class="big">I'm an AI & Data Science student who learns by <em>building.</em></p>
+        <p class="muted">I like taking a real problem, pulling it apart, and seeing how far I can push a solution. Some projects become useful. Some become experiments. Either way, I learn more by shipping than by waiting until everything is perfect.</p>
       </div>
     </section>
 
-    <section class="section about" id="about">
-      <div class="section-label">01 / A little about me</div>
-      <div class="about-copy">
-        <p>I'm currently studying AI & Data Science. I'm still figuring out exactly where technology will take me, so I prefer experimenting over pretending I already know.</p>
-        <p>I enjoy taking something apart, understanding how it works, and trying to build my own version. That's usually how my projects start.</p>
-        <p class="muted">Outside tech, you'll usually find me gaming or reading novels. I like stories, worlds and games that make me look at things from a different perspective.</p>
+    <section class="work scene" id="work">
+      <div class="section-head">
+        <div class="section-tag">02 — SELECTED WORK</div>
+        <span>things I've actually spent time on</span>
       </div>
-    </section>
 
-    <section class="section" id="work">
-      <div class="section-label">02 / Things I've built</div>
-      <div class="work-list">
-        <article class="work-item">
-          <span>01</span>
-          <div>
+      <div class="projects">
+        <a class="project featured" href="https://github.com/Arisuuu2007/NovaTube" target="_blank" rel="noreferrer">
+          <div class="project-number">01</div>
+          <div class="project-content">
+            <div class="project-meta"><span>ANDROID</span><span>WEBVIEW</span></div>
             <h2>NovaTube</h2>
-            <p>A YouTube WebView client experiment for Android. Built while exploring WebView, media playback and what a more focused mobile experience could look like.</p>
-            <a href="https://github.com/Arisuuu2007/NovaTube" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <p>A focused YouTube client experiment exploring Android WebView, media playback and a cleaner mobile experience.</p>
+            <span class="open">VIEW PROJECT ↗</span>
           </div>
-        </article>
+          <div class="project-art nova-art"><div class="orb"></div><span>N</span></div>
+        </a>
 
-        <article class="work-item">
-          <span>02</span>
-          <div>
-            <h2>Immersive 3D Audio</h2>
-            <p>An Android audio project where I experimented with spatial sound, bass processing and improving the listening experience across devices.</p>
-            <a href="https://github.com/Arisuuu2007/immersive-audio" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a class="project" href="https://github.com/Arisuuu2007/immersive-audio" target="_blank" rel="noreferrer">
+          <div class="project-number">02</div>
+          <div class="project-content">
+            <div class="project-meta"><span>ANDROID</span><span>AUDIO</span></div>
+            <h2>Immersive Audio</h2>
+            <p>Experiments with spatial sound, bass processing and making audio feel better across devices.</p>
+            <span class="open">VIEW PROJECT ↗</span>
           </div>
-        </article>
+          <div class="project-art audio-art"><div class="bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+        </a>
 
-        <article class="work-item">
-          <span>03</span>
-          <div>
-            <h2>Gemini Web for Android</h2>
-            <p>A lightweight Android wrapper for Gemini Web, built as another experiment in making web experiences feel more natural on mobile.</p>
-            <a href="https://github.com/Arisuuu2007/gemini-web-android" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a class="project" href="https://github.com/Arisuuu2007/gemini-web-android" target="_blank" rel="noreferrer">
+          <div class="project-number">03</div>
+          <div class="project-content">
+            <div class="project-meta"><span>AI</span><span>ANDROID</span></div>
+            <h2>Gemini Web</h2>
+            <p>A lightweight Android wrapper experiment focused on making a web AI experience feel native on mobile.</p>
+            <span class="open">VIEW PROJECT ↗</span>
           </div>
-        </article>
+          <div class="project-art ai-art"><span>✦</span></div>
+        </a>
 
-        <article class="work-item">
-          <span>04</span>
-          <div>
-            <h2>Digital Wellbeing for Windows</h2>
-            <p>A semester project exploring how software can help people understand and manage the way they use their computers.</p>
-            <span class="academic">Semester project</span>
+        <div class="project">
+          <div class="project-number">04</div>
+          <div class="project-content">
+            <div class="project-meta"><span>ACADEMIC</span><span>WINDOWS</span></div>
+            <h2>Digital Wellbeing</h2>
+            <p>A semester project exploring how software can help people understand and manage computer usage.</p>
+            <span class="open muted-open">SEMESTER PROJECT</span>
           </div>
-        </article>
+          <div class="project-art grid-art"></div>
+        </div>
       </div>
     </section>
 
-    <section class="section small-section">
-      <div class="section-label">03 / What I use</div>
-      <p class="stack">C · C++ · Java · Python · HTML · CSS · JavaScript · Git · GitHub · Android · WebView</p>
+    <section class="stack scene">
+      <div class="section-tag">03 — TOOLBOX</div>
+      <div class="stack-list">
+        <span>Python</span><span>Java</span><span>C / C++</span><span>JavaScript</span><span>Android</span><span>WebView</span><span>Git</span><span>GitHub</span><span>AI / ML</span>
+      </div>
     </section>
 
-    <section class="contact" id="contact">
-      <p class="eyebrow">Have something worth building?</p>
-      <h2>Let's talk.</h2>
-      <a href="mailto:harshittmehen@gmail.com">harshittmehen@gmail.com ↗</a>
-      <a href="https://github.com/Arisuuu2007" target="_blank" rel="noreferrer">github.com/Arisuuu2007 ↗</a>
+    <section class="play scene" id="play">
+      <div class="section-tag">04 — OUTSIDE THE IDE</div>
+      <div class="play-grid">
+        <div class="play-card games">
+          <span class="card-index">01</span>
+          <div><small>HOBBY</small><h3>Games</h3><p>Competitive games, random experiments, and occasionally losing way too much time to one more match.</p></div>
+          <span class="card-symbol">⌁</span>
+        </div>
+        <div class="play-card novels">
+          <span class="card-index">02</span>
+          <div><small>HOBBY</small><h3>Novels</h3><p>Especially stories with huge worlds, strange systems and characters that refuse to stay simple.</p></div>
+          <span class="card-symbol">◌</span>
+        </div>
+      </div>
+      <p class="novel-note">Current brain fuel: <strong>ORV</strong> — Omniscient Reader's Viewpoint.</p>
+    </section>
+
+    <section class="contact scene">
+      <div class="section-tag">05 — CONTACT</div>
+      <p class="contact-line">Got a problem<br>worth building for?</p>
+      <a class="contact-link magnetic" href="mailto:harshittmehen@gmail.com">Let's make something ↗</a>
+      <div class="contact-foot">
+        <span>Harshit Shyam</span>
+        <a href="https://github.com/Arisuuu2007" target="_blank" rel="noreferrer">@Arisuuu2007 ↗</a>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <span>© <span id="year"></span> Harshit Mehendole</span>
-    <span>still learning. still building.</span>
-  </footer>
-
+  <footer><span>© <span id="year"></span> Harshit Shyam</span><span>built with curiosity.</span></footer>
   <script src="script.js"></script>
 </body>
 </html>
